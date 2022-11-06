@@ -1,0 +1,31 @@
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.scss";
+body {
+    background-image: url("../order-summary-component-main/images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 50vh;
+}
+
+$primary: hsl(245,
+75%,
+52%);
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap');
+* {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    color: black !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: $primary;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: none;
+    color: $primary;
+}
